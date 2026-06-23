@@ -1,6 +1,7 @@
 import random
 from art import logo, vs
 from data import data
+#higer lower
 def format_data(account):
     account_name = account['name']
     account_descr = account['description']
@@ -47,4 +48,3 @@ while game_on:
     else:
         print(f"You guess wrong, your final score is: {score}")
         game_on = False
-    
