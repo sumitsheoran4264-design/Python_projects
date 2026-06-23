@@ -2,7 +2,7 @@ from question_model import Question
 from data import question_data
 from quiz_brain import Quizbrain
 
-# quiz brain game 
+# Quiz brain game 
 question_bank = []
 
 for question in question_data:
